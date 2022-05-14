@@ -131,7 +131,7 @@ input[type=checkbox] {
     .dropdown li:hover {
         background-color: #4c9e9e;
     }
-    .banner-section, .counter-section, .skills-section, .program-details, .graduate-section, .media .row {
+    .banner-section, .counter-section, .skills-section, .program-details, .graduate-section, .media .row, .strategic-partners {
         flex-flow: column;
     }
 }
@@ -304,5 +304,21 @@ blockquote {
     display: flex;
 }
 .media .row div {
+    flex: 1 1;
+}
+.media h3, .fund-partners h3 {
+    text-align: center;
+}
+/*FUNDING PARTNERS SECTION*/
+hr{
+    height: 1px;
+    background-color: #333;
+    border: none;
+}
+/*STRATEGIC PARTNERS SECTION*/
+.strategic-partners {
+    display: flex;
+}
+.strategic-partners div {
     flex: 1 1;
 }
