@@ -127,7 +127,7 @@ input[type=checkbox] {
     .dropdown li:hover {
         background-color: #4c9e9e;
     }
-    .banner-section {
+    .banner-section, .counter-section {
         flex-flow: column;
     }
 }
@@ -171,6 +171,7 @@ input[type=checkbox] {
 }
 h1, h2, h3, h4 {
     margin: 2rem 0;
+    font-size: calc((3.5 - 1) * 1.2vw + 1rem);
 }
 p {
     margin: 1rem 0;
@@ -179,10 +180,31 @@ p {
     padding: 17px 0;
 }
 .banner-content h1 {
-    font-size: calc((3.5 - 1) * 1.2vw + 1rem);
     font-weight: 400;
 }
 .banner-content p {
     font-size: calc((1.6 - 1) * 1.2vw + 1rem);
     font-weight: 200;
+}
+
+/*COUNTER SECTION*/
+.counter-section {
+    padding-top: 3.3vmax;
+    padding-bottom: 3.3vmax;
+    display: flex;
+    padding-right: 7vw;
+    padding-left: 7vw;
+    margin: 0 auto;
+    max-width: 1000px;
+    box-sizing: content-box;
+    text-align: center;
+}
+.counter-section .content {
+    flex: 1 1;
+}
+.counter-section h1 {
+    color: #18ea19;
+}
+.counter-section p {
+    font-size: calc((1.6 - 1) * 1.2vw + 1rem);
 }
