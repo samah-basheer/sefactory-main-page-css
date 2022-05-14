@@ -101,17 +101,29 @@ input[type=checkbox] {
     .menu {
         display: none;
         position: absolute;
-        background-color: teal;
+        background-color: #ffffff;
         right: 0;
         left: 0;
         text-align: center;
         padding: 16px 0;
+        height: 100%;
+        margin-top: 26px;
+        position: fixed;
+    }
+    .active {
+        border-bottom: 1px solid #000000;
+    }
+    .menu .nav-btn {
+        background: none;
     }
 
     .menu li:hover {
         display: inline-block;
         background-color: #4c9e9e;
         transition: 0.3s ease;
+    }
+    .menu a {
+        color: #000000;
     }
 
     .menu li+li {
