@@ -343,3 +343,21 @@ hr{
     border: none;
     padding: 0.8rem 1.336rem;
 }
+/*FOOTER*/
+.footer {
+    padding-top: calc(15vmax / 10);
+    padding-bottom: calc(15vmax / 10);
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+.footer p {
+    margin: 0;
+    font-size: calc((1.1 - 1) * 1.2vw + 1rem);
+}
+.footer p a {
+    color: #18ea19;
+    font-weight: 400;
+    border-bottom: 1px solid #18ea19;
+}
