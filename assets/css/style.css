@@ -134,7 +134,7 @@ input[type=checkbox] {
 }
 .active {
     padding-bottom: 8px;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #ffffff;
 }
 
 .nav-btn {
