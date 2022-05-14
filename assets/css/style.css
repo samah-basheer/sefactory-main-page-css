@@ -19,6 +19,11 @@
     src: url("../fonts/Roboto-Bold.ttf");
     font-weight: 700;
 }
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Light.ttf");
+    font-weight: 200;
+}
 
 body {
     font-family: "Roboto";
@@ -122,6 +127,9 @@ input[type=checkbox] {
     .dropdown li:hover {
         background-color: #4c9e9e;
     }
+    .banner-section {
+        flex-flow: column;
+    }
 }
 
 /*MAIN HEADER*/
@@ -143,4 +151,38 @@ input[type=checkbox] {
     padding: 13px 20px;
     font-size: .9rem;
     font-weight: bolder;
+    color: white;
+}
+
+/*BANNER CONTENT*/
+.banner-section {
+    color: #ffffff;
+    display: flex;
+    padding-top: calc(50vmax / 5);
+    padding-bottom: 7vw;
+    padding-left: 7vw;
+    padding-right: 7vw;
+}
+.banner-section div {
+    flex: 1 1;
+}
+.banner-section .nav-btn {
+    font-size: calc((1.1 - 1) * 1.2vw + 1rem);;
+}
+h1, h2, h3, h4 {
+    margin: 2rem 0;
+}
+p {
+    margin: 1rem 0;
+}
+.banner-content div {
+    padding: 17px 0;
+}
+.banner-content h1 {
+    font-size: calc((3.5 - 1) * 1.2vw + 1rem);
+    font-weight: 400;
+}
+.banner-content p {
+    font-size: calc((1.6 - 1) * 1.2vw + 1rem);
+    font-weight: 200;
 }
