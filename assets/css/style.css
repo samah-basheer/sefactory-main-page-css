@@ -25,6 +25,10 @@
     font-weight: 200;
 }
 
+img {
+    max-width: 100%;
+}
+
 body {
     font-family: "Roboto";
 }
@@ -127,7 +131,7 @@ input[type=checkbox] {
     .dropdown li:hover {
         background-color: #4c9e9e;
     }
-    .banner-section, .counter-section, .skills-section, .program-details, .graduate-section {
+    .banner-section, .counter-section, .skills-section, .program-details, .graduate-section, .media .row {
         flex-flow: column;
     }
 }
@@ -178,6 +182,9 @@ h1 {
 h2 {
     font-weight: 400;
     font-size: calc((3 - 1) * 1.2vw + 1rem);
+}
+h3 {
+    font-size: calc((2.5 - 1) * 1.2vw + 1rem);
 }
 h4 {
     font-weight: 400;
@@ -288,4 +295,14 @@ blockquote {
 }
 .testimonials img {
     max-width: 100%;
+}
+/*MEDIA SECTION*/
+.media {
+    background-color: #e6e6e6;
+}
+.media .row {
+    display: flex;
+}
+.media .row div {
+    flex: 1 1;
 }
