@@ -127,7 +127,7 @@ input[type=checkbox] {
     .dropdown li:hover {
         background-color: #4c9e9e;
     }
-    .banner-section, .counter-section, .skills-section {
+    .banner-section, .counter-section, .skills-section, .program-details {
         flex-flow: column;
     }
 }
@@ -239,4 +239,23 @@ blockquote {
 }
 .skills-section p.btn a {
     border-bottom: 1px solid #18ea19;
+}
+/*PROGRAMS SECTION*/
+.programs {
+    background-color: #18ea19;
+}
+.programs h2 {
+    text-align: center;
+    color: #ffffff;
+}
+.program-details {
+    display: flex;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.program-details div {
+    flex: 1 1;
+}
+.program-details img {
+    max-width: 100%;
 }
