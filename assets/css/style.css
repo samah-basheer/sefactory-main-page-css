@@ -25,6 +25,10 @@
     font-weight: 200;
 }
 
+a {
+    text-decoration: none;
+}
+
 img {
     max-width: 100%;
 }
@@ -131,8 +135,15 @@ input[type=checkbox] {
     .dropdown li:hover {
         background-color: #4c9e9e;
     }
-    .banner-section, .counter-section, .skills-section, .program-details, .graduate-section, .media .row, .strategic-partners {
+    .banner-section, .counter-section, .skills-section, .program-details, .graduate-section, .media .row, .strategic-partners, .footer {
         flex-flow: column;
+    }
+    .footer {
+        text-align: center;
+    }
+    .footer div {
+        padding-top: 12px;
+        padding-bottom: 12px;
     }
 }
 
@@ -360,4 +371,12 @@ hr{
     color: #18ea19;
     font-weight: 400;
     border-bottom: 1px solid #18ea19;
+}
+.social-icons i {
+    font-size: 24px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.social-icons a {
+    color: white;
 }
